@@ -18,7 +18,7 @@ last update: 22/05/18- Submission version
 The purpose of this project was
 
 ## Block diagram 
-![Block Diagram](https://user-images.githubusercontent.com/120782729/209185564-4ddd8bfd-041e-45df-940e-5851938630b1.png)
+![Block Diagram](https://user-images.githubusercontent.com/120782729/209185845-ff39ebd4-213f-4a3d-90d2-e3c0042d3fcb.png)
 
 ## Schematic of the project
 ![schematic](https://user-images.githubusercontent.com/120782729/209185207-0dc22271-c03c-4832-81cc-7f505d6936b0.jpg)
