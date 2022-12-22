@@ -1,0 +1,302 @@
+|everything
+arm <= ARM_CONVERT:77.angle_pwm
+clk => FDIV1:42.fin
+data_pc => RX2:71.si
+data_pc => data.DATAIN
+servo <= SERVO_CONVERT1:82.angle_pwm
+motor4 <= MOTOR_CONTROL2:79.m4
+motor3 <= MOTOR_CONTROL2:79.m3
+motor2 <= MOTOR_CONTROL2:79.m2
+motor1 <= MOTOR_CONTROL2:79.m1
+claw <= CLAW_CONVERT:81.angle_pwm
+my_gnd <= <GND>
+freq <= FDIV1:42.fout
+data <= data_pc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|everything|arm_convert:77
+angle_num[0] => Mux7.IN10
+angle_num[0] => Mux6.IN5
+angle_num[0] => Mux5.IN10
+angle_num[0] => Mux4.IN10
+angle_num[0] => Mux3.IN10
+angle_num[1] => Mux7.IN9
+angle_num[1] => Mux5.IN9
+angle_num[1] => Mux4.IN9
+angle_num[1] => Mux3.IN9
+angle_num[1] => Mux2.IN5
+angle_num[1] => Mux1.IN5
+angle_num[1] => Mux0.IN5
+angle_num[1] => LessThan1.IN19
+angle_num[2] => Mux7.IN8
+angle_num[2] => Mux6.IN4
+angle_num[2] => Mux5.IN8
+angle_num[2] => Mux4.IN8
+angle_num[2] => Mux3.IN8
+angle_num[2] => Mux2.IN4
+angle_num[2] => Mux1.IN4
+angle_num[2] => Mux0.IN4
+clk => count[11].CLK
+clk => count[10].CLK
+clk => count[9].CLK
+clk => count[8].CLK
+clk => count[7].CLK
+clk => count[6].CLK
+clk => count[5].CLK
+clk => count[4].CLK
+clk => count[3].CLK
+clk => count[2].CLK
+clk => count[1].CLK
+clk => count[0].CLK
+clk => angle_pwm~reg0.CLK
+angle_pwm <= angle_pwm~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|everything|fdiv1:42
+fin => fout~reg0.CLK
+fin => cnt[7].CLK
+fin => cnt[6].CLK
+fin => cnt[5].CLK
+fin => cnt[4].CLK
+fin => cnt[3].CLK
+fin => cnt[2].CLK
+fin => cnt[1].CLK
+fin => cnt[0].CLK
+fout <= fout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|everything|info_mux2:88
+data[0] => servo_claw~2.DATAB
+data[0] => servo_cam~2.DATAB
+data[0] => motors[0]~reg0.DATAIN
+data[1] => servo_claw~1.DATAB
+data[1] => servo_cam~1.DATAB
+data[1] => motors[1]~reg0.DATAIN
+data[2] => servo_claw~0.DATAB
+data[2] => servo_cam~0.DATAB
+data[2] => motors[2]~reg0.DATAIN
+data[3] => servo_arm~2.DATAB
+data[3] => motors[3]~reg0.DATAIN
+data[4] => servo_arm~1.DATAB
+data[4] => speed1~reg0.DATAIN
+data[5] => servo_arm~0.DATAB
+data[5] => speed2~reg0.DATAIN
+data[6] => Equal0.IN0
+data[6] => Equal1.IN1
+data[6] => Equal2.IN0
+data[7] => Equal0.IN1
+data[7] => Equal1.IN0
+data[7] => Equal2.IN1
+clk => motors[3]~reg0.CLK
+clk => motors[2]~reg0.CLK
+clk => motors[1]~reg0.CLK
+clk => motors[0]~reg0.CLK
+clk => speed1~reg0.CLK
+clk => speed2~reg0.CLK
+clk => servo_cam[2]~reg0.CLK
+clk => servo_cam[1]~reg0.CLK
+clk => servo_cam[0]~reg0.CLK
+clk => servo_arm[2]~reg0.CLK
+clk => servo_arm[1]~reg0.CLK
+clk => servo_arm[0]~reg0.CLK
+clk => servo_claw[2]~reg0.CLK
+clk => servo_claw[1]~reg0.CLK
+clk => servo_claw[0]~reg0.CLK
+motors[0] <= motors[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+motors[1] <= motors[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+motors[2] <= motors[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+motors[3] <= motors[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+speed1 <= speed1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+speed2 <= speed2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+servo_cam[0] <= servo_cam[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+servo_cam[1] <= servo_cam[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+servo_cam[2] <= servo_cam[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+servo_claw[0] <= servo_claw[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+servo_claw[1] <= servo_claw[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+servo_claw[2] <= servo_claw[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+servo_arm[0] <= servo_arm[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+servo_arm[1] <= servo_arm[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+servo_arm[2] <= servo_arm[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|everything|rx2:71
+clk => cnt[7].CLK
+clk => cnt[6].CLK
+clk => cnt[5].CLK
+clk => cnt[4].CLK
+clk => cnt[3].CLK
+clk => cnt[2].CLK
+clk => cnt[1].CLK
+clk => cnt[0].CLK
+clk => buf[7].CLK
+clk => buf[6].CLK
+clk => buf[5].CLK
+clk => buf[4].CLK
+clk => buf[3].CLK
+clk => buf[2].CLK
+clk => buf[1].CLK
+clk => buf[0].CLK
+clk => start_bit.CLK
+clk => stop_bit.CLK
+clk => y[7]~reg0.CLK
+clk => y[6]~reg0.CLK
+clk => y[5]~reg0.CLK
+clk => y[4]~reg0.CLK
+clk => y[3]~reg0.CLK
+clk => y[2]~reg0.CLK
+clk => y[1]~reg0.CLK
+clk => y[0]~reg0.CLK
+si => stop_bit~0.DATAB
+si => buf~35.DATAB
+si => buf~27.DATAB
+si => buf~20.DATAB
+si => buf~14.DATAB
+si => buf~9.DATAB
+si => buf~5.DATAB
+si => buf~2.DATAB
+si => buf~0.DATAB
+si => start_bit~0.DATAB
+si => start.CLK
+y[0] <= y[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= y[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= y[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= y[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|everything|servo_convert1:82
+angle_num[0] => Mux7.IN10
+angle_num[0] => Mux6.IN10
+angle_num[0] => Mux5.IN10
+angle_num[0] => Mux4.IN5
+angle_num[0] => Mux3.IN10
+angle_num[0] => Mux2.IN10
+angle_num[0] => Mux1.IN10
+angle_num[0] => Mux0.IN10
+angle_num[0] => LessThan1.IN21
+angle_num[1] => Mux7.IN9
+angle_num[1] => Mux6.IN9
+angle_num[1] => Mux5.IN9
+angle_num[1] => Mux4.IN4
+angle_num[1] => Mux3.IN9
+angle_num[1] => Mux2.IN9
+angle_num[1] => Mux1.IN9
+angle_num[1] => Mux0.IN9
+angle_num[2] => Mux7.IN8
+angle_num[2] => Mux6.IN8
+angle_num[2] => Mux5.IN8
+angle_num[2] => Mux3.IN8
+angle_num[2] => Mux2.IN8
+angle_num[2] => Mux1.IN8
+angle_num[2] => Mux0.IN8
+clk => count[11].CLK
+clk => count[10].CLK
+clk => count[9].CLK
+clk => count[8].CLK
+clk => count[7].CLK
+clk => count[6].CLK
+clk => count[5].CLK
+clk => count[4].CLK
+clk => count[3].CLK
+clk => count[2].CLK
+clk => count[1].CLK
+clk => count[0].CLK
+clk => angle_pwm~reg0.CLK
+angle_pwm <= angle_pwm~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|everything|motor_control2:79
+motors[0] => m1~0.IN0
+motors[1] => m2~0.IN1
+motors[2] => m3~0.IN0
+motors[3] => m4~0.IN1
+pwm_in1 => m2~0.IN0
+pwm_in1 => m1~0.IN1
+pwm_in2 => m4~0.IN0
+pwm_in2 => m3~0.IN1
+m1 <= m1~0.DB_MAX_OUTPUT_PORT_TYPE
+m2 <= m2~0.DB_MAX_OUTPUT_PORT_TYPE
+m3 <= m3~0.DB_MAX_OUTPUT_PORT_TYPE
+m4 <= m4~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|everything|dc_pwm1:57
+speed => LessThan1.IN4
+speed => LessThan1.IN5
+speed => LessThan1.IN14
+speed => LessThan1.IN15
+speed => LessThan1.IN16
+clk => cnt[7].CLK
+clk => cnt[6].CLK
+clk => cnt[5].CLK
+clk => cnt[4].CLK
+clk => cnt[3].CLK
+clk => cnt[2].CLK
+clk => cnt[1].CLK
+clk => cnt[0].CLK
+clk => out_pwm~reg0.CLK
+out_pwm <= out_pwm~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|everything|dc_pwm1:80
+speed => LessThan1.IN4
+speed => LessThan1.IN5
+speed => LessThan1.IN14
+speed => LessThan1.IN15
+speed => LessThan1.IN16
+clk => cnt[7].CLK
+clk => cnt[6].CLK
+clk => cnt[5].CLK
+clk => cnt[4].CLK
+clk => cnt[3].CLK
+clk => cnt[2].CLK
+clk => cnt[1].CLK
+clk => cnt[0].CLK
+clk => out_pwm~reg0.CLK
+out_pwm <= out_pwm~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|everything|claw_convert:81
+angle_num[0] => Mux7.IN10
+angle_num[0] => Mux6.IN10
+angle_num[0] => Mux5.IN10
+angle_num[0] => Mux4.IN10
+angle_num[0] => Mux3.IN10
+angle_num[0] => Mux2.IN10
+angle_num[0] => Mux1.IN10
+angle_num[0] => Mux0.IN10
+angle_num[1] => Mux7.IN9
+angle_num[1] => Mux6.IN9
+angle_num[1] => Mux5.IN9
+angle_num[1] => Mux4.IN9
+angle_num[1] => Mux3.IN9
+angle_num[1] => Mux2.IN9
+angle_num[1] => Mux1.IN9
+angle_num[1] => Mux0.IN9
+angle_num[2] => Mux7.IN8
+angle_num[2] => Mux6.IN8
+angle_num[2] => Mux5.IN8
+angle_num[2] => Mux4.IN8
+angle_num[2] => Mux3.IN8
+angle_num[2] => Mux2.IN8
+angle_num[2] => Mux1.IN8
+angle_num[2] => Mux0.IN8
+clk => count[11].CLK
+clk => count[10].CLK
+clk => count[9].CLK
+clk => count[8].CLK
+clk => count[7].CLK
+clk => count[6].CLK
+clk => count[5].CLK
+clk => count[4].CLK
+clk => count[3].CLK
+clk => count[2].CLK
+clk => count[1].CLK
+clk => count[0].CLK
+clk => angle_pwm~reg0.CLK
+angle_pwm <= angle_pwm~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

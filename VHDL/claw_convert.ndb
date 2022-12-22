@@ -1,0 +1,679 @@
+NDB006
+The number of symbol table entries is: 3
+The length of the symbol table is: 63
+
+Index Hierarchy Path
+----- --------------
+!	&null_hpath&
+.	|LPM_ADD_SUB:217|
+@	|LPM_ADD_SUB:217|addcore:adder|
+
+The number of name info structs is : 665
+
+InsOrder BitField SymTableIndex NextSyn SynParent Loc ChainType NextChain ChainParent FanOut DirExp ParExp ShareExp NodeName
+-------- -------- ------------- ------- --------- --- --------- --------- ----------- ------ ------ ------ -------- --------
+"	LGPw	!	&y	11	1	5	'7	&i	'y	(%	"	:10	"D
+#	LGPw	!	&x	11	1	4	'1	'y	'~	#	:11	"E
+$	L8f/	!	27	17	12	%H	&O	&i	"	#	-	8	C	N	Y	b	c	:111	#K
+%	IeEA	!	27	17	:112	#L
+&	IeEA	!	27	17	:113	#M
+'	IeEA	!	27	17	:114	#N
+(	IeEA	!	27	17	:115	#O
+)	IeEA	!	27	17	:116	#P
+*	IeEA	!	27	17	:117	#Q
++	IeEA	!	27	17	:118	#R
+,	IeEA	!	27	17	:119	#S
+-	LGPw	!	&w	11	1	7	'1	#U	'v	#	'x	(&	-	:12	"F
+.	IeEA	!	27	17	:120	#T
+/	IeEA	!	27	17	:121	#U
+0	IeEA	!	27	17	:122	#V
+1	IeEA	!	27	17	:123	#W
+2	IeEA	!	27	17	:124	#X
+3	IeEA	!	27	17	:125	#Y
+4	IeEA	!	27	17	:126	#Z
+5	IeEA	!	27	17	:127	#[
+6	IeEA	!	27	17	:128	#\
+7	IeEA	!	27	17	:129	#]
+8	LGPw	!	&v	11	1	6	'+	'x	(!	($	'~	8	:13	"G
+9	IeEA	!	27	17	:130	#^
+:	IeEA	!	27	17	:131	#_
+;	IeEA	!	27	17	:132	#`
+<	IeEA	!	27	17	:133	#a
+=	IeEA	!	27	17	:134	#b
+>	IeEA	!	27	17	:135	#c
+?	IeEA	!	27	17	:136	#d
+@	IeEA	!	27	17	:137	#e
+A	IeEA	!	27	17	:138	#f
+B	IeEA	!	27	17	:139	#g
+C	LGPw	!	&u	11	1	8	'+	8	'x	(!	(#	(&	((	C	:14	"H
+D	IeEA	!	27	17	:140	#h
+E	IeEA	!	27	17	:141	#i
+F	IeEA	!	27	17	:142	#j
+G	IeEA	!	27	17	:143	#k
+H	IeEA	!	27	17	:144	#l
+I	IeEA	!	27	17	:145	#m
+J	IeEA	!	27	17	:146	#n
+K	IeEA	!	27	17	:147	#o
+L	IeEA	!	27	17	:148	#p
+M	IeEA	!	27	17	:149	#q
+N	LGPw	!	&t	11	1	8	'g	'u	'x	'z	(#	('	((	N	:15	"I
+O	IeEA	!	27	17	:150	#r
+P	IeEA	!	27	17	:151	#s
+Q	IeEA	!	27	17	:152	#t
+R	L8f/	!	27	17	1	'y	:153	#u
+S	IeEA	!	27	17	:154	#v
+T	IeEA	!	27	17	:155	#w
+U	IeEA	!	27	17	:156	#x
+V	IeEA	!	27	17	:157	#y
+W	IeEA	!	27	17	:158	#z
+X	IeEA	!	27	17	:159	#{
+Y	LGPw	!	&s	11	1	6	'd	R	'z	('	'{	Y	:16	"J
+Z	IeEA	!	27	17	:160	#|
+[	IeEA	!	27	17	:161	#}
+\	IeEA	!	27	17	:162	#~
+]	IeEA	!	27	17	:163	$!
+^	IeEA	!	27	17	:164	$"
+_	IeEA	!	27	17	:165	$#
+`	IeEA	!	27	17	:166	$$
+a	IeEA	!	27	17	:167	$%
+b	LGPw	!	&p	11	1	7	'd	'w	Y	R	'z	(&	b	:17	"K
+c	LGPw	!	&o	11	1	5	'd	Y	b	('	c	:18	"L
+d	IGdW	!	:278	%5
+e	IGdW	!	:279	%6
+f	IGdW	!	:280	%7
+g	IGdW	!	:281	%8
+h	IGdW	!	:282	%9
+i	IGdW	!	:283	%:
+j	IGdW	!	:284	%;
+k	IGdW	!	:285	%<
+l	IGdW	!	:286	%=
+m	IGdW	!	:287	%>
+n	IGdW	!	:288	%?
+o	IGdW	!	:289	%@
+p	IGdW	!	:290	%A
+q	IGdW	!	:291	%B
+r	IGdW	!	:292	%C
+s	IGdW	!	:293	%D
+t	IGdW	!	:294	%E
+u	IGdW	!	:295	%F
+v	IGdW	!	:296	%G
+w	IGdW	!	:297	%H
+x	IGdW	!	:298	%I
+y	IGdW	!	:299	%J
+z	IGdW	!	:300	%K
+{	IGdW	!	:301	%L
+|	IGdW	!	:302	%M
+}	IGdW	!	:303	%N
+~	IGdW	!	:304	%O
+"!	IGdW	!	:305	%P
+""	IGdW	!	:306	%Q
+"#	IGdW	!	:307	%R
+"$	IGdW	!	:308	%S
+"%	IGdW	!	:309	%T
+"&	IGdW	!	:310	%U
+"'	IGdW	!	:311	%V
+"(	IGdW	!	:312	%W
+")	IGdW	!	:313	%X
+"*	IGdW	!	:314	%Y
+"+	IGdW	!	:315	%Z
+",	IGdW	!	:316	%[
+"-	IGdW	!	:317	%\
+".	IGdW	!	:318	%]
+"/	IGdW	!	:319	%^
+"0	IGdW	!	:320	%_
+"1	IGdW	!	:321	%`
+"2	IGdW	!	:322	%a
+"3	IGdW	!	:323	%b
+"4	IGdW	!	:324	%c
+"5	IGdW	!	:325	%d
+"6	IGdW	!	:326	%e
+"7	IGdW	!	:327	%f
+"8	IGdW	!	:328	%g
+"9	IGdW	!	:329	%h
+":	IGdW	!	:330	%i
+";	IGdW	!	:331	%j
+"<	IGdW	!	:332	%k
+"=	IGdW	!	:333	%l
+">	IGdW	!	:334	%m
+"?	IGdW	!	:335	%n
+"@	IGdW	!	:336	%o
+"A	IGdW	!	:337	%p
+"B	IGdW	!	:338	%q
+"C	IGdW	!	:339	%r
+"D	IGdW	!	:340	%s
+"E	IGdW	!	:341	%t
+"F	IGdW	!	:342	%u
+"G	IGdW	!	:343	%v
+"H	IGdW	!	:344	%w
+"I	IGdW	!	:345	%x
+"J	IGdW	!	:346	%y
+"K	IGdW	!	:347	%z
+"L	IGdW	!	:348	%{
+"M	IGdW	!	:349	%|
+"N	IGdW	!	:350	%}
+"O	IGdW	!	:351	%~
+"P	IGdW	!	:352	&!
+"Q	IGdW	!	:353	&"
+"R	IGdW	!	:354	&#
+"S	IGdW	!	:355	&$
+"T	IeEA	!	27	17	:388	&E
+"U	IeEA	!	27	17	:389	&F
+"V	IeEA	!	27	17	:390	&G
+"W	IeEA	!	27	17	:391	&H
+"X	IeEA	!	27	17	:392	&I
+"Y	IeEA	!	27	17	:393	&J
+"Z	IeEA	!	27	17	:394	&K
+"[	IeEA	!	27	17	:395	&L
+"\	IeEA	!	27	17	:396	&M
+"]	IeEA	!	27	17	:397	&N
+"^	IeEA	!	27	17	:398	&O
+"_	IeEA	!	27	17	:399	&P
+"`	IeEA	!	27	17	:400	&Q
+"a	IeEA	!	27	17	:401	&R
+"b	IeEA	!	27	17	:402	&S
+"c	IeEA	!	27	17	:403	&T
+"d	IeEA	!	27	17	:404	&U
+"e	IeEA	!	27	17	:405	&V
+"f	IeEA	!	27	17	:406	&W
+"g	IeEA	!	27	17	:407	&X
+"h	IeEA	!	27	17	:408	&Y
+"i	IeEA	!	27	17	:409	&Z
+"j	IeEA	!	27	17	:410	&[
+"k	IeEA	!	27	17	:411	&\
+"l	IeEA	!	27	17	:412	&]
+"m	IeEA	!	27	17	:413	&^
+"n	IeEA	!	27	17	:414	&_
+"o	IeEA	!	27	17	:415	&`
+"p	IeEA	!	27	17	:416	&a
+"q	IeEA	!	27	17	:417	&b
+"r	IeEA	!	27	17	:418	&c
+"s	IeEA	!	27	17	:419	&d
+"t	IeEA	!	27	17	:420	&e
+"u	IeEA	!	27	17	:421	&f
+"v	IeEA	!	27	17	:422	&g
+"w	IeEA	!	27	17	:423	&h
+"x	IeEA	!	27	17	:424	&i
+"y	IeEA	!	27	17	:425	&j
+"z	IeEA	!	27	17	:426	&k
+"{	IeEA	!	27	17	:427	&l
+"|	IeEA	!	27	17	:428	&m
+"}	IeEA	!	27	17	:429	&n
+"~	IeEA	!	27	17	:430	&o
+#!	IeEA	!	27	17	:431	&p
+#"	IeEA	!	27	17	:432	&q
+##	IeEA	!	27	17	:433	&r
+#$	IeEA	!	27	17	:434	&s
+#%	IeEA	!	27	17	:435	&t
+#&	IeEA	!	27	17	:436	&u
+#'	IeEA	!	27	17	:437	&v
+#(	IeEA	!	27	17	:438	&w
+#)	IeEA	!	27	17	:439	&x
+#*	IeEA	!	27	17	:440	&y
+#+	IeEA	!	27	17	:441	&z
+#,	IeEA	!	27	17	:442	&{
+#-	IeEA	!	27	17	:443	&|
+#.	IeEA	!	27	17	:444	&}
+#/	IGdW	!	:449	'$
+#0	IGdW	!	:450	'%
+#1	IGdW	!	:451	'&
+#2	IGdW	!	:452	''
+#3	IGdW	!	:453	'(
+#4	IGdW	!	:454	')
+#5	IGdW	!	:455	'*
+#6	IGdW	!	:456	'+
+#7	IGdW	!	:457	',
+#8	IGdW	!	:458	'-
+#9	IGdW	!	:459	'.
+#:	IGdW	!	:460	'/
+#;	IGdW	!	:474	'=
+#<	IGdW	!	:475	'>
+#=	IGdW	!	:476	'?
+#>	IGdW	!	:477	'@
+#?	IGdW	!	:478	'A
+#@	IGdW	!	:479	'B
+#A	IGdW	!	:480	'C
+#B	IGdW	!	:481	'D
+#C	IGdW	!	:482	'E
+#D	IGdW	!	:483	'F
+#E	IGdW	!	:484	'G
+#F	IGdW	!	:485	'H
+#G	IGdW	!	:486	'I
+#H	IGdW	!	:487	'J
+#I	IGdW	!	:488	'K
+#J	IGdW	!	:489	'L
+#K	IGdW	!	:490	'M
+#L	IGdW	!	:491	'N
+#M	IGdW	!	:492	'O
+#N	IGdW	!	:493	'P
+#O	IGdW	!	:494	'Q
+#P	IGdW	!	:495	'R
+#Q	IGdW	!	:496	'S
+#R	IGdW	!	:497	'T
+#S	IGdW	!	:498	'U
+#T	IGdW	!	:499	'V
+#U	L8e}	!	6	25	1	&m	:5	"@
+#V	IGdW	!	:500	'W
+#W	IGdW	!	:501	'X
+#X	IGdW	!	:502	'Y
+#Y	IGdW	!	:503	'Z
+#Z	IGdW	!	:504	'[
+#[	IGdW	!	:505	'\
+#\	IGdW	!	:506	']
+#]	IGdW	!	:507	'^
+#^	IGdW	!	:508	'_
+#_	IGdW	!	:509	'`
+#`	IGdW	!	:510	'a
+#a	IGdW	!	:511	'b
+#b	IGdW	!	:512	'c
+#c	IGdW	!	:513	'd
+#d	IGdW	!	:514	'e
+#e	IGdW	!	:515	'f
+#f	IGdW	!	:516	'g
+#g	IGdW	!	:517	'h
+#h	IGdW	!	:518	'i
+#i	IGdW	!	:519	'j
+#j	IGdW	!	:520	'k
+#k	IGdW	!	:521	'l
+#l	IGdW	!	:522	'm
+#m	IGdW	!	:523	'n
+#n	IGdW	!	:524	'o
+#o	IGdW	!	:525	'p
+#p	IGdW	!	:526	'q
+#q	IGdW	!	:527	'r
+#r	IGdW	!	:528	's
+#s	IGdW	!	:529	't
+#t	IGdW	!	:530	'u
+#u	IGdW	!	:531	'v
+#v	IGdW	!	:532	'w
+#w	IGdW	!	:533	'x
+#x	IGdW	!	:534	'y
+#y	IGdW	!	:535	'z
+#z	IGdW	!	:536	'{
+#{	IGdW	!	:537	'|
+#|	IGdW	!	:538	'}
+#}	IGdW	!	:539	'~
+#~	IGdW	!	:540	(!
+$!	IGdW	!	:541	("
+$"	IGdW	!	:542	(#
+$#	IGdW	!	:543	($
+$$	IGdW	!	:544	(%
+$%	IGdW	!	:545	(&
+$&	IGdW	!	:546	('
+$'	IGdW	!	:547	((
+$(	IGdW	!	:548	()
+$)	IGdW	!	:549	(*
+$*	IGdW	!	:550	(+
+$+	IGdW	!	:551	(,
+$,	IGdW	!	:552	(-
+$-	IGdW	!	:553	(.
+$.	IGdW	!	:554	(/
+$/	IGdW	!	:555	(0
+$0	IGdW	!	:556	(1
+$1	IGdW	!	:557	(2
+$2	IGdW	!	:584	(M
+$3	IGdW	!	:585	(N
+$4	IGdW	!	:586	(O
+$5	IGdW	!	:587	(P
+$6	IGdW	!	:588	(Q
+$7	IGdW	!	:589	(R
+$8	IGdW	!	:590	(S
+$9	IGdW	!	:591	(T
+$:	IGdW	!	:592	(U
+$;	IGdW	!	:593	(V
+$<	IGdW	!	:594	(W
+$=	IGdW	!	:595	(X
+$>	IGdW	!	:596	(Y
+$?	IGdW	!	:597	(Z
+$@	IGdW	!	:598	([
+$A	IGdW	!	:599	(\
+$B	IGdW	!	:600	(]
+$C	IGdW	!	:601	(^
+$D	IGdW	!	:602	(_
+$E	IGdW	!	:603	(`
+$F	IGdW	!	:604	(a
+$G	IGdW	!	:605	(b
+$H	IGdW	!	:606	(c
+$I	IGdW	!	:607	(d
+$J	IGdW	!	:608	(e
+$K	IGdW	!	:609	(f
+$L	IGdW	!	:610	(g
+$M	IGdW	!	:611	(h
+$N	IGdW	!	:612	(i
+$O	IGdW	!	:613	(j
+$P	IGdW	!	:614	(k
+$Q	IGdW	!	:615	(l
+$R	IGdW	!	:616	(m
+$S	IGdW	!	:617	(n
+$T	IGdW	!	:618	(o
+$U	IGdW	!	:619	(p
+$V	IGdW	!	:620	(q
+$W	IGdW	!	:621	(r
+$X	IGdW	!	:622	(s
+$Y	IGdW	!	:623	(t
+$Z	IGdW	!	:624	(u
+$[	IGdW	!	:625	(v
+$\	IGdW	!	:626	(w
+$]	IGdW	!	:627	(x
+$^	IGdW	!	:628	(y
+$_	IGdW	!	:629	(z
+$`	IGdW	!	:630	({
+$a	IGdW	!	:631	(|
+$b	IGdW	!	:632	(}
+$c	IGdW	!	:633	(~
+$d	IGdW	!	:634	)!
+$e	IGdW	!	:635	)"
+$f	IGdW	!	:636	)#
+$g	IGdW	!	:637	)$
+$h	IGdW	!	:638	)%
+$i	IGdW	!	:639	)&
+$j	IGdW	!	:640	)'
+$k	IGdW	!	:641	)(
+$l	IGdW	!	:642	))
+$m	IGdW	!	:643	)*
+$n	IGdW	!	:644	)+
+$o	IGdW	!	:645	),
+$p	IGdW	!	:646	)-
+$q	IGdW	!	:647	).
+$r	IGdW	!	:648	)/
+$s	IGdW	!	:649	)0
+$t	IGdW	!	:650	)1
+$u	IGdW	!	:651	)2
+$v	IGdW	!	:652	)3
+$w	IGdW	!	:653	)4
+$x	IGdW	!	:654	)5
+$y	IGdW	!	:655	)6
+$z	IGdW	!	:656	)7
+${	IGdW	!	:657	)8
+$|	IGdW	!	:658	)9
+$}	IGdW	!	:659	):
+$~	IGdW	!	:660	);
+%!	IGdW	!	:661	)<
+%"	IGdW	!	:662	)=
+%#	IGdW	!	:663	)>
+%$	IGdW	!	:664	)?
+%%	IGdW	!	:665	)@
+%&	IGdW	!	:666	)A
+%'	IGdW	!	:667	)B
+%(	IGdW	!	:668	)C
+%)	IGdW	!	:669	)D
+%*	IGdW	!	:670	)E
+%+	IGdW	!	:671	)F
+%,	IGdW	!	:672	)G
+%-	IGdW	!	:673	)H
+%.	IGdW	!	:674	)I
+%/	IGdW	!	:675	)J
+%0	IGdW	!	:676	)K
+%1	IGdW	!	:677	)L
+%2	IGdW	!	:678	)M
+%3	IGdW	!	:679	)N
+%4	IGdW	!	:680	)O
+%5	IGdW	!	:681	)P
+%6	IGdW	!	:682	)Q
+%7	IGdW	!	:683	)R
+%8	IGdW	!	:684	)S
+%9	IGdW	!	:685	)T
+%:	IGdW	!	:686	)U
+%;	IGdW	!	:687	)V
+%<	IGdW	!	:688	)W
+%=	IGdW	!	:689	)X
+%>	IGdW	!	:690	)Y
+%?	IGdW	!	:691	)Z
+%@	IGdW	!	:692	)[
+%A	IGdW	!	:693	)\
+%B	IGdW	!	:694	)]
+%C	IGdW	!	:695	)^
+%D	IGdW	!	:696	)_
+%E	IGdW	!	:697	)`
+%F	IGdW	!	:698	)a
+%G	IGdW	!	:699	)b
+%H	LGPw	!	&r	11	1	3	$	(%	%H	:7	"A
+%I	IGdW	!	:700	)c
+%J	IGdW	!	:701	)d
+%K	IGdW	!	:702	)e
+%L	IGdW	!	:703	)f
+%M	IGdW	!	:704	)g
+%N	IGdW	!	:705	)h
+%O	IGdW	!	:706	)i
+%P	IGdW	!	:707	)j
+%Q	IGdW	!	:708	)k
+%R	IGdW	!	:709	)l
+%S	IGdW	!	:710	)m
+%T	IGdW	!	:711	)n
+%U	IGdW	!	:712	)o
+%V	IGdW	!	:713	)p
+%W	IGdW	!	:714	)q
+%X	IGdW	!	:715	)r
+%Y	IGdW	!	:716	)s
+%Z	IGdW	!	:717	)t
+%[	IGdW	!	:718	)u
+%\	IGdW	!	:719	)v
+%]	IGdW	!	:720	)w
+%^	IGdW	!	:721	)x
+%_	IGdW	!	:722	)y
+%`	IGdW	!	:723	)z
+%a	IGdW	!	:724	){
+%b	IGdW	!	:725	)|
+%c	IGdW	!	:726	)}
+%d	IGdW	!	:727	)~
+%e	IGdW	!	:728	*!
+%f	IGdW	!	:729	*"
+%g	IGdW	!	:730	*#
+%h	IGdW	!	:731	*$
+%i	IGdW	!	:732	*%
+%j	IGdW	!	:733	*&
+%k	IGdW	!	:734	*'
+%l	IGdW	!	:735	*(
+%m	IGdW	!	:736	*)
+%n	IGdW	!	:737	**
+%o	IGdW	!	:738	*+
+%p	IGdW	!	:739	*,
+%q	IGdW	!	:740	*-
+%r	IGdW	!	:741	*.
+%s	IGdW	!	:742	*/
+%t	IGdW	!	:743	*0
+%u	IGdW	!	:744	*1
+%v	IGdW	!	:745	*2
+%w	IGdW	!	:746	*3
+%x	IGdW	!	:747	*4
+%y	IGdW	!	:748	*5
+%z	IGdW	!	:749	*6
+%{	IGdW	!	:750	*7
+%|	IGdW	!	:751	*8
+%}	IGdW	!	:752	*9
+%~	IGdW	!	:753	*:
+&!	IGdW	!	:754	*;
+&"	IGdW	!	:755	*<
+&#	IGdW	!	:756	*=
+&$	IGdW	!	:757	*>
+&%	IGdW	!	:758	*?
+&&	IGdW	!	:759	*@
+&'	IGdW	!	:760	*A
+&(	IGdW	!	:761	*B
+&)	IGdW	!	:762	*C
+&*	IGdW	!	:763	*D
+&+	IGdW	!	:764	*E
+&,	IGdW	!	:765	*F
+&-	IGdW	!	:766	*G
+&.	IGdW	!	:767	*H
+&/	IGdW	!	:768	*I
+&0	IGdW	!	:769	*J
+&1	IGdW	!	:770	*K
+&2	IGdW	!	:771	*L
+&3	IGdW	!	:772	*M
+&4	IGdW	!	:773	*N
+&5	IGdW	!	:774	*O
+&6	IGdW	!	:775	*P
+&7	IGdW	!	:776	*Q
+&8	IGdW	!	:777	*R
+&9	IGdW	!	:778	*S
+&:	IGdW	!	:779	*T
+&;	IGdW	!	:780	*U
+&<	IGdW	!	:781	*V
+&=	IGdW	!	:782	*W
+&>	IGdW	!	:783	*X
+&?	IGdW	!	:784	*Y
+&@	IGdW	!	:785	*Z
+&A	IGdW	!	:786	*[
+&B	IGdW	!	:787	*\
+&C	IGdW	!	:788	*]
+&D	IGdW	!	:789	*^
+&E	IGdW	!	:790	*_
+&F	IGdW	!	:791	*`
+&G	IGdW	!	:792	*a
+&H	IGdW	!	:793	*b
+&I	IGdW	!	:794	*c
+&J	IGdW	!	:795	*d
+&K	IGdW	!	:796	*e
+&L	IGdW	!	:797	*f
+&M	IGdW	!	:798	*g
+&N	IGdW	!	:799	*h
+&O	LGPw	!	&q	11	1	4	%H	$	(%	&O	:8	"B
+&P	IGdW	!	:800	*i
+&Q	IGdW	!	:801	*j
+&R	IGdW	!	:802	*k
+&S	IGdW	!	:803	*l
+&T	IGdW	!	:804	*m
+&U	IGdW	!	:805	*n
+&V	IGdW	!	:806	*o
+&W	IGdW	!	:807	*p
+&X	IGdW	!	:808	*q
+&Y	IGdW	!	:809	*r
+&Z	IGdW	!	:810	*s
+&[	IGdW	!	:811	*t
+&\	IGdW	!	:812	*u
+&]	IGdW	!	:813	*v
+&^	IGdW	!	:814	*w
+&_	IGdW	!	:815	*x
+&`	IGdW	!	:816	*y
+&a	IGdW	!	:817	*z
+&b	IGdW	!	:818	*{
+&c	IGdW	!	:819	*|
+&d	IGdW	!	:820	*}
+&e	IGdW	!	:821	*~
+&f	IGdW	!	:822	+!
+&g	IGdW	!	:823	+"
+&h	IGdW	!	:824	+#
+&i	LGPw	!	&}	11	1	4	'7	'y	(%	&i	:9	"C
+&j	"?%_n	!	4	22	6	'u	'v	'z	(#	('	'}	angle_num0	!	angle_num0	o
+&k	"?%_n	!	4	22	6	'w	(!	($	'{	'|	'}	angle_num1	!	angle_num1	n
+&l	"?%_n	!	4	22	4	'w	("	(&	'}	angle_num2	!	angle_num2	m
+&m	IeE[	!	6	25	angle_pwm	q
+&n	(@\6H	!	5	25	13	#U	%H	&O	&i	"	#	-	8	C	N	Y	b	c	clk	p
+&o	"<;pW	!	c	count0	!	count0	"L
+&p	"<;pW	!	b	count1	!	count1	"K
+&q	"<;pW	!	&O	count10	!	count10	"B
+&r	"<;pW	!	%H	count11	!	count11	"A
+&s	"<;pW	!	Y	count2	!	count2	"J
+&t	"<;pW	!	N	count3	!	count3	"I
+&u	"<;pW	!	C	count4	!	count4	"H
+&v	"<;pW	!	8	count5	!	count5	"G
+&w	"<;pW	!	-	count6	!	count6	"F
+&x	"<;pW	!	#	count7	!	count7	"E
+&y	"<;pW	!	"	count8	!	count8	"D
+&z	IM}Q	!	'u	count8~1	6>
+&{	IM}Q	!	'v	count8~2	6I
+&|	IM}Q	!	'w	count8~3	6J
+&}	"<;pW	!	&i	count9	!	count9	"C
+&~	IeEA	.	704	78	:195	,{
+'!	IeEA	.	704	78	:196	,|
+'"	IeEA	.	704	56	:197	,}
+'#	IeEA	.	705	35	:198	,~
+'$	IeEA	.	704	91	:199	-!
+'%	IeEA	.	704	91	:200	-"
+'&	IeEA	@	312	28	:101	-w
+''	IeEA	@	312	52	:102	-x
+'(	IeEA	@	312	64	:103	-y
+')	IeEA	@	312	28	:105	-{
+'*	IeEA	@	312	52	:106	-|
+'+	L8f/	@	312	64	3	'1	#	-	:107	-}
+',	IeEA	@	312	28	:109	.!
+'-	IeEA	@	312	52	:110	."
+'.	IeEA	@	312	64	:111	.#
+'/	IeEA	@	312	28	:113	.%
+'0	IeEA	@	312	52	:114	.&
+'1	L8f/	@	312	64	3	'7	&i	"	:115	.'
+'2	IeEA	@	312	28	:117	.)
+'3	IeEA	@	312	52	:118	.*
+'4	IeEA	@	312	64	:119	.+
+'5	IeEA	@	312	28	:121	.-
+'6	IeEA	@	312	52	:122	..
+'7	L8f/	@	312	64	2	%H	&O	:123	./
+'8	IeEA	@	312	28	:125	.1
+'9	IeEA	@	312	52	:126	.2
+':	IeEA	@	312	64	:127	.3
+';	IeEA	@	312	28	:129	.5
+'<	IeEA	@	312	52	:130	.6
+'=	IeEA	@	312	64	:131	.7
+'>	IeEA	@	312	28	:133	.9
+'?	IeEA	@	312	52	:134	.:
+'@	IeEA	@	312	64	:135	.;
+'A	IeEA	@	315	26	:137	.=
+'B	IeEA	@	315	37	:138	.>
+'C	IeEA	@	316	45	:139	.?
+'D	IeEA	@	316	45	:140	.@
+'E	IeEA	@	316	45	:141	.A
+'F	IeEA	@	316	45	:142	.B
+'G	IeEA	@	316	45	:143	.C
+'H	IeEA	@	316	45	:144	.D
+'I	IeEA	@	316	45	:145	.E
+'J	IeEA	@	316	45	:146	.F
+'K	IeEA	@	316	45	:147	.G
+'L	IeEA	@	316	45	:148	.H
+'M	IeEA	@	316	45	:149	.I
+'N	IeEA	@	316	45	:150	.J
+'O	IeEA	@	316	67	:151	.K
+'P	IeEA	@	316	67	:152	.L
+'Q	IeEA	@	316	67	:153	.M
+'R	IeEA	@	316	67	:154	.N
+'S	IeEA	@	316	67	:155	.O
+'T	IeEA	@	316	67	:156	.P
+'U	IeEA	@	316	67	:157	.Q
+'V	IeEA	@	316	67	:158	.R
+'W	IeEA	@	316	67	:159	.S
+'X	IeEA	@	316	67	:160	.T
+'Y	IeEA	@	316	67	:161	.U
+'Z	IeEA	@	316	67	:162	.V
+'[	IeEA	@	308	28	:84	-f
+'\	IeEA	@	308	52	:85	-g
+']	IeEA	@	308	40	:86	-h
+'^	IeEA	@	309	18	:87	-i
+'_	IeEA	@	312	28	:89	-k
+'`	IeEA	@	312	52	:90	-l
+'a	IeEA	@	312	64	:91	-m
+'b	IeEA	@	312	28	:93	-o
+'c	IeEA	@	312	52	:94	-p
+'d	L8f/	@	312	64	3	'g	N	("	:95	-q
+'e	IeEA	@	312	28	:97	-s
+'f	IeEA	@	312	52	:98	-t
+'g	L8f/	@	312	64	3	'+	8	C	:99	-u
+'h	IeEA	@	308	64	pcarry0	-j
+'i	IeEA	@	312	40	pcarry1	-n
+'j	IeEA	@	312	40	pcarry10	.4
+'k	IeEA	@	312	40	pcarry11	.8
+'l	IeEA	@	312	40	pcarry12	.<
+'m	IeEA	@	312	40	pcarry2	-r
+'n	IeEA	@	312	40	pcarry3	-v
+'o	IeEA	@	312	40	pcarry4	-z
+'p	IeEA	@	312	40	pcarry5	-~
+'q	IeEA	@	312	40	pcarry6	.$
+'r	IeEA	@	312	40	pcarry7	.(
+'s	IeEA	@	312	40	pcarry8	.,
+'t	IeEA	@	312	40	pcarry9	.0
+'u	LFWy	!	&z	11	1	1	("	~10~1	6>
+'v	LFWy	!	&{	11	1	2	((	'{	~10~2	6I
+'w	LFWy	!	&|	11	1	1	((	~10~3	6J
+'x	L7gU	!	27	17	2	$	'}	~121~1	6'
+'y	L7gU	!	27	17	1	$	~121~2	6)
+'z	L7gU	!	27	17	1	(!	~390~1	6@
+'{	L7gU	!	27	17	1	'|	~390~10	6L
+'|	L7gU	!	27	17	1	'~	~390~11	6M
+'}	L7gU	!	27	17	1	'~	~390~12	6N
+'~	L7gU	!	27	17	1	#U	~390~13	6O
+(!	L7gU	!	27	17	1	("	~390~2	6B
+("	L7gU	!	27	17	1	($	~390~3	6C
+(#	L7gU	!	27	17	1	($	~390~4	6D
+($	L7gU	!	27	17	1	#U	~390~5	6E
+(%	L7gU	!	27	17	1	#U	~390~6	6F
+(&	L7gU	!	27	17	1	'|	~390~7	6G
+('	L7gU	!	27	17	1	'|	~390~8	6H
+((	L7gU	!	27	17	1	'{	~390~9	6K

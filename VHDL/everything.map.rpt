@@ -1,0 +1,320 @@
+Analysis & Synthesis report for everything
+Tue Feb 27 11:02:28 2018
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Analysis & Synthesis Source Files Read
+  5. Analysis & Synthesis Resource Usage Summary
+  6. Analysis & Synthesis Resource Utilization by Entity
+  7. Registers Removed During Synthesis
+  8. General Register Statistics
+  9. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                               ;
++-----------------------------+----------------------------------------------+
+; Analysis & Synthesis Status ; Successful - Tue Feb 27 11:02:28 2018        ;
+; Quartus II Version          ; 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition ;
+; Revision Name               ; everything                                   ;
+; Top-level Entity Name       ; everything                                   ;
+; Family                      ; MAX II                                       ;
+; Total logic elements        ; 187                                          ;
+; Total pins                  ; 12                                           ;
+; Total virtual pins          ; 0                                            ;
+; UFM blocks                  ; 0 / 1 ( 0 % )                                ;
++-----------------------------+----------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                          ;
++--------------------------------------------------------------+--------------------+--------------------+
+; Option                                                       ; Setting            ; Default Value      ;
++--------------------------------------------------------------+--------------------+--------------------+
+; Device                                                       ; EPM240T100C4       ;                    ;
+; Top-level entity name                                        ; everything         ; everything         ;
+; Family name                                                  ; MAX II             ; Stratix II         ;
+; Use smart compilation                                        ; Off                ; Off                ;
+; Restructure Multiplexers                                     ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                          ; Off                ; Off                ;
+; Preserve fewer node names                                    ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                    ; Off                ; Off                ;
+; Verilog Version                                              ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                 ; VHDL93             ; VHDL93             ;
+; State Machine Processing                                     ; Auto               ; Auto               ;
+; Safe State Machine                                           ; Off                ; Off                ;
+; Extract Verilog State Machines                               ; On                 ; On                 ;
+; Extract VHDL State Machines                                  ; On                 ; On                 ;
+; Ignore Verilog initial constructs                            ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                   ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops               ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                      ; On                 ; On                 ;
+; Parallel Synthesis                                           ; Off                ; Off                ;
+; NOT Gate Push-Back                                           ; On                 ; On                 ;
+; Power-Up Don't Care                                          ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                 ; Off                ; Off                ;
+; Remove Duplicate Registers                                   ; On                 ; On                 ;
+; Ignore CARRY Buffers                                         ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                       ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                    ; Off                ; Off                ;
+; Ignore LCELL Buffers                                         ; Off                ; Off                ;
+; Ignore SOFT Buffers                                          ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                               ; Off                ; Off                ;
+; Optimization Technique                                       ; Balanced           ; Balanced           ;
+; Carry Chain Length                                           ; 70                 ; 70                 ;
+; Auto Carry Chains                                            ; On                 ; On                 ;
+; Auto Open-Drain Pins                                         ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                        ; Off                ; Off                ;
+; Auto Shift Register Replacement                              ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                ; On                 ; On                 ;
+; Allow Synchronous Control Signals                            ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                       ; Off                ; Off                ;
+; Auto Resource Sharing                                        ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing          ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives            ; Off                ; Off                ;
+; Show Parameter Settings Tables in Synthesis Report           ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                           ; Off                ; Off                ;
+; Synchronization Register Chain Length                        ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                 ; Normal compilation ; Normal compilation ;
+; HDL message level                                            ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages              ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report     ; 100                ; 100                ;
+; Number of Inverted Registers Reported in Synthesis Report    ; 100                ; 100                ;
+; Clock MUX Protection                                         ; On                 ; On                 ;
+; Block Design Naming                                          ; Auto               ; Auto               ;
+; Synthesis Effort                                             ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal ; On                 ; On                 ;
+; Analysis & Synthesis Message Level                           ; Medium             ; Medium             ;
++--------------------------------------------------------------+--------------------+--------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                              ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                              ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+
+; motor_control2.vhd               ; yes             ; User VHDL File                     ; D:/dor and dan/everything 6/everything/motor_control2.vhd ;
+; info_mux2.vhd                    ; yes             ; User VHDL File                     ; D:/dor and dan/everything 6/everything/info_mux2.vhd      ;
+; arm_convert.vhd                  ; yes             ; User VHDL File                     ; D:/dor and dan/everything 6/everything/arm_convert.vhd    ;
+; claw_convert.vhd                 ; yes             ; User VHDL File                     ; D:/dor and dan/everything 6/everything/claw_convert.vhd   ;
+; rx2.vhd                          ; yes             ; User VHDL File                     ; D:/dor and dan/everything 6/everything/rx2.vhd            ;
+; fdiv1.vhd                        ; yes             ; User VHDL File                     ; D:/dor and dan/everything 6/everything/fdiv1.vhd          ;
+; servo_convert1.vhd               ; yes             ; User VHDL File                     ; D:/dor and dan/everything 6/everything/servo_convert1.vhd ;
+; dc_pwm1.vhd                      ; yes             ; User VHDL File                     ; D:/dor and dan/everything 6/everything/dc_pwm1.vhd        ;
+; everything.bdf                   ; yes             ; User Block Diagram/Schematic File  ; D:/dor and dan/everything 6/everything/everything.bdf     ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+
+
+
++-------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                 ;
++---------------------------------------------+---------------+
+; Resource                                    ; Usage         ;
++---------------------------------------------+---------------+
+; Total logic elements                        ; 187           ;
+;     -- Combinational with no register       ; 103           ;
+;     -- Register only                        ; 27            ;
+;     -- Combinational with a register        ; 57            ;
+;                                             ;               ;
+; Logic element usage by number of LUT inputs ;               ;
+;     -- 4 input functions                    ; 47            ;
+;     -- 3 input functions                    ; 49            ;
+;     -- 2 input functions                    ; 58            ;
+;     -- 1 input functions                    ; 5             ;
+;     -- 0 input functions                    ; 1             ;
+;                                             ;               ;
+; Logic elements by mode                      ;               ;
+;     -- normal mode                          ; 133           ;
+;     -- arithmetic mode                      ; 54            ;
+;     -- qfbk mode                            ; 0             ;
+;     -- register cascade mode                ; 0             ;
+;     -- synchronous clear/load mode          ; 36            ;
+;     -- asynchronous clear/load mode         ; 17            ;
+;                                             ;               ;
+; Total registers                             ; 84            ;
+; Total logic cells in carry chains           ; 61            ;
+; I/O pins                                    ; 12            ;
+; Maximum fan-out node                        ; fdiv1:42|fout ;
+; Maximum fan-out                             ; 76            ;
+; Total fan-out                               ; 660           ;
+; Average fan-out                             ; 3.32          ;
++---------------------------------------------+---------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                            ;
++----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------+--------------+
+; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name           ; Library Name ;
++----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------+--------------+
+; |everything                ; 187 (0)     ; 84           ; 0          ; 12   ; 0            ; 103 (0)      ; 27 (0)            ; 57 (0)           ; 61 (0)          ; 0 (0)      ; |everything                   ; work         ;
+;    |arm_convert:77|        ; 18 (18)     ; 1            ; 0          ; 0    ; 0            ; 17 (17)      ; 0 (0)             ; 1 (1)            ; 9 (9)           ; 0 (0)      ; |everything|arm_convert:77    ; work         ;
+;    |claw_convert:81|       ; 33 (33)     ; 13           ; 0          ; 0    ; 0            ; 20 (20)      ; 0 (0)             ; 13 (13)          ; 20 (20)         ; 0 (0)      ; |everything|claw_convert:81   ; work         ;
+;    |dc_pwm1:57|            ; 14 (14)     ; 9            ; 0          ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 9 (9)            ; 8 (8)           ; 0 (0)      ; |everything|dc_pwm1:57        ; work         ;
+;    |dc_pwm1:80|            ; 14 (14)     ; 9            ; 0          ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 9 (9)            ; 8 (8)           ; 0 (0)      ; |everything|dc_pwm1:80        ; work         ;
+;    |fdiv1:42|              ; 19 (19)     ; 9            ; 0          ; 0    ; 0            ; 10 (10)      ; 4 (4)             ; 5 (5)            ; 8 (8)           ; 0 (0)      ; |everything|fdiv1:42          ; work         ;
+;    |info_mux2:88|          ; 18 (18)     ; 15           ; 0          ; 0    ; 0            ; 3 (3)        ; 15 (15)           ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |everything|info_mux2:88      ; work         ;
+;    |motor_control2:79|     ; 4 (4)       ; 0            ; 0          ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |everything|motor_control2:79 ; work         ;
+;    |rx2:71|                ; 45 (45)     ; 27           ; 0          ; 0    ; 0            ; 18 (18)      ; 8 (8)             ; 19 (19)          ; 8 (8)           ; 0 (0)      ; |everything|rx2:71            ; work         ;
+;    |servo_convert1:82|     ; 22 (22)     ; 1            ; 0          ; 0    ; 0            ; 21 (21)      ; 0 (0)             ; 1 (1)            ; 0 (0)           ; 0 (0)      ; |everything|servo_convert1:82 ; work         ;
++----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++--------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                             ;
++----------------------------------------+---------------------------------------+
+; Register name                          ; Reason for Removal                    ;
++----------------------------------------+---------------------------------------+
+; servo_convert1:82|count[0]             ; Merged with claw_convert:81|count[0]  ;
+; arm_convert:77|count[0]                ; Merged with claw_convert:81|count[0]  ;
+; servo_convert1:82|count[1]             ; Merged with claw_convert:81|count[1]  ;
+; arm_convert:77|count[1]                ; Merged with claw_convert:81|count[1]  ;
+; servo_convert1:82|count[2]             ; Merged with claw_convert:81|count[2]  ;
+; arm_convert:77|count[2]                ; Merged with claw_convert:81|count[2]  ;
+; servo_convert1:82|count[3]             ; Merged with claw_convert:81|count[3]  ;
+; arm_convert:77|count[3]                ; Merged with claw_convert:81|count[3]  ;
+; servo_convert1:82|count[4]             ; Merged with claw_convert:81|count[4]  ;
+; arm_convert:77|count[4]                ; Merged with claw_convert:81|count[4]  ;
+; servo_convert1:82|count[5]             ; Merged with claw_convert:81|count[5]  ;
+; arm_convert:77|count[5]                ; Merged with claw_convert:81|count[5]  ;
+; servo_convert1:82|count[6]             ; Merged with claw_convert:81|count[6]  ;
+; arm_convert:77|count[6]                ; Merged with claw_convert:81|count[6]  ;
+; servo_convert1:82|count[7]             ; Merged with claw_convert:81|count[7]  ;
+; arm_convert:77|count[7]                ; Merged with claw_convert:81|count[7]  ;
+; servo_convert1:82|count[8]             ; Merged with claw_convert:81|count[8]  ;
+; arm_convert:77|count[8]                ; Merged with claw_convert:81|count[8]  ;
+; servo_convert1:82|count[9]             ; Merged with claw_convert:81|count[9]  ;
+; arm_convert:77|count[9]                ; Merged with claw_convert:81|count[9]  ;
+; servo_convert1:82|count[10]            ; Merged with claw_convert:81|count[10] ;
+; arm_convert:77|count[10]               ; Merged with claw_convert:81|count[10] ;
+; servo_convert1:82|count[11]            ; Merged with claw_convert:81|count[11] ;
+; arm_convert:77|count[11]               ; Merged with claw_convert:81|count[11] ;
+; Total Number of Removed Registers = 24 ;                                       ;
++----------------------------------------+---------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 84    ;
+; Number of registers using Synchronous Clear  ; 36    ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 17    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 31    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Analysis & Synthesis
+    Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+    Info: Processing started: Tue Feb 27 11:02:26 2018
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off everything -c everything
+Info: Found 2 design units, including 1 entities, in source file clk_adj.vhd
+    Info: Found design unit 1: clk_adj-behave
+    Info: Found entity 1: clk_adj
+Info: Found 2 design units, including 1 entities, in source file motor_control2.vhd
+    Info: Found design unit 1: motor_control2-behave
+    Info: Found entity 1: motor_control2
+Info: Found 2 design units, including 1 entities, in source file info_mux.vhd
+    Info: Found design unit 1: info_mux-behave
+    Info: Found entity 1: info_mux
+Info: Found 2 design units, including 1 entities, in source file rx3.vhd
+    Info: Found design unit 1: rx3-behave
+    Info: Found entity 1: rx3
+Info: Found 2 design units, including 1 entities, in source file info_mux2.vhd
+    Info: Found design unit 1: info_mux2-behave
+    Info: Found entity 1: info_mux2
+Info: Found 2 design units, including 1 entities, in source file arm_convert.vhd
+    Info: Found design unit 1: arm_convert-behave
+    Info: Found entity 1: arm_convert
+Info: Found 2 design units, including 1 entities, in source file claw_convert.vhd
+    Info: Found design unit 1: claw_convert-behave
+    Info: Found entity 1: claw_convert
+Info: Found 2 design units, including 1 entities, in source file rx2.vhd
+    Info: Found design unit 1: rx2-behave
+    Info: Found entity 1: rx2
+Info: Found 1 design units, including 1 entities, in source file servo_convert.gdf
+    Info: Found entity 1: servo_convert
+Info: Found 1 design units, including 1 entities, in source file motor_control.gdf
+    Info: Found entity 1: motor_control
+Info: Found 2 design units, including 1 entities, in source file fdiv1.vhd
+    Info: Found design unit 1: fdiv1-behave
+    Info: Found entity 1: fdiv1
+Info: Found 2 design units, including 1 entities, in source file rx1.vhd
+    Info: Found design unit 1: rx1-behave
+    Info: Found entity 1: rx1
+Info: Found 2 design units, including 1 entities, in source file split_7seg1.vhd
+    Info: Found design unit 1: split_7seg1-behave
+    Info: Found entity 1: split_7seg1
+Info: Found 2 design units, including 1 entities, in source file dec_7seg1.vhd
+    Info: Found design unit 1: dec_7seg1-behave
+    Info: Found entity 1: dec_7seg1
+Info: Found 2 design units, including 1 entities, in source file split_motor1.vhd
+    Info: Found design unit 1: split_motor1-behave
+    Info: Found entity 1: split_motor1
+Info: Found 2 design units, including 1 entities, in source file servo_convert1.vhd
+    Info: Found design unit 1: servo_convert1-behave
+    Info: Found entity 1: servo_convert1
+Info: Found 2 design units, including 1 entities, in source file dc_pwm1.vhd
+    Info: Found design unit 1: dc_pwm1-behave
+    Info: Found entity 1: dc_pwm1
+Info: Found 2 design units, including 1 entities, in source file motor_control1.vhd
+    Info: Found design unit 1: motor_control1-behave
+    Info: Found entity 1: motor_control1
+Info: Found 1 design units, including 1 entities, in source file everything.bdf
+    Info: Found entity 1: everything
+Info: Elaborating entity "everything" for the top level hierarchy
+Info: Elaborating entity "arm_convert" for hierarchy "arm_convert:77"
+Info: Elaborating entity "fdiv1" for hierarchy "fdiv1:42"
+Info: Elaborating entity "info_mux2" for hierarchy "info_mux2:88"
+Info: Elaborating entity "rx2" for hierarchy "rx2:71"
+Info: Elaborating entity "servo_convert1" for hierarchy "servo_convert1:82"
+Info: Elaborating entity "motor_control2" for hierarchy "motor_control2:79"
+Info: Elaborating entity "dc_pwm1" for hierarchy "dc_pwm1:57"
+Info: Elaborating entity "claw_convert" for hierarchy "claw_convert:81"
+Warning: Output pins are stuck at VCC or GND
+    Warning (13410): Pin "my_gnd" is stuck at GND
+Info: Implemented 199 device resources after synthesis - the final resource count might be different
+    Info: Implemented 2 input pins
+    Info: Implemented 10 output pins
+    Info: Implemented 187 logic cells
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 266 megabytes
+    Info: Processing ended: Tue Feb 27 11:02:28 2018
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
