@@ -70,9 +70,7 @@ The user can apply a few image processing functions:
 * Outlines- the function creates picture of the outlines using Sobel mask.
 * Sharpening- this function enhancing the differences between pixels values. 
 * LPF- this function blur the picture, by averaging the pixels values.
-
-Color detection and self driving function- 
-after using the Color filitering function, the rover will find the biggest group of pixels that match the ragne of the color filtering function, and then drive itself towards it.The rover will drive towards the object, until the pixels are at the center of the picture. Thus if the group of the pixels are above the middle of the picture, the rover will drive forward and vice versa (and if the group of the pixels are right to the middle of the picture, the rover will drive right and vice versa).
+* Color detection and self driving function- after using the Color filitering function, the rover will find the biggest group of pixels that match the ragne of the color filtering function, and then drive itself towards it.The rover will drive towards the object, until the pixels are at the center of the picture. Thus if the group of the pixels are above the middle of the picture, the rover will drive forward and vice versa (and if the group of the pixels are right to the middle of the picture, the rover will drive right and vice versa).
 
 ### Color filter:
 
