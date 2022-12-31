@@ -28,8 +28,9 @@ The rover includes:
 
 Feautures:
 * The user can interface with the project using GUI written in C#, while the computer is remotely connected to the rover using Bluetooth modules.
-* Using the GUI, the user can move the rover in any direction (forward, backward, right, left), in two different speeds. 
-* 
+* Using the GUI, the user can move the rover, control the arm, changing the camera's angles and use a few image processing functions on the received picture from the camera. 
+* The rover can move in any direction (forward, backward, right, left) in two different speeds. 
+* The user can move the arm (up and down) in 8 different angles, and 
 
 ## Block diagram 
 ![Block Diagram](https://user-images.githubusercontent.com/120782729/209185845-ff39ebd4-213f-4a3d-90d2-e3c0042d3fcb.png)
