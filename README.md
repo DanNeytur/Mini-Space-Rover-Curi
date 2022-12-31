@@ -15,7 +15,9 @@ last update: 22/05/18- Submission version
 
 ## Description
 
-The purpose of this project was
+This project is a remote controlled vehicle with an IP camera, using CPLD controller (Altera MAXII CPLD). 
+
+The project is inspired by NASA's rover on plant Mars, Curiosity- hence the nickname we gave to the project, Curi.
 
 ## Block diagram 
 ![Block Diagram](https://user-images.githubusercontent.com/120782729/209185845-ff39ebd4-213f-4a3d-90d2-e3c0042d3fcb.png)
