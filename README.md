@@ -36,7 +36,7 @@ The rover includes:
 * The servo motor attached to the IP camera can move in 8 different angles.
 * The arm can move up and down in 8 different angles, and the arm's claw can open and close.
 
-Image processing functions are explained in the next segment.
+Image processing functions are explained in the Operating Principle segment.
 
 
 ## Block diagram 
