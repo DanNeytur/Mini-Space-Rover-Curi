@@ -39,7 +39,14 @@ The rover includes:
 Image processing functions are explained in the next segment.
 
 
-### C# GUI and Image Processing functions
+## Block diagram 
+![Block Diagram](https://user-images.githubusercontent.com/120782729/209185845-ff39ebd4-213f-4a3d-90d2-e3c0042d3fcb.png)
+
+## Schematic of the project
+![schematic](https://user-images.githubusercontent.com/120782729/209185207-0dc22271-c03c-4832-81cc-7f505d6936b0.jpg)
+
+
+## C# GUI and Image Processing functions (Operating Principle)
 ![C# interface](https://user-images.githubusercontent.com/120782729/210149287-660f6b86-e196-4d18-8c46-4ab2a194bf11.png)
 
 As you can see in the picture above, the user can interface with the rover, view the picture received from the IP camera and apply a few image processing functions to it.
@@ -68,15 +75,6 @@ Color detection and self driving function-
 after using the Color filitering function, the rover will find the biggest group of pixels that match the ragne of the color filtering function, and then drive itself towards it.The rover will drive towards the object, until the pixels are at the center of the picture. Thus if the group of the pixels are above the middle of the picture, the rover will drive forward and vice versa (and if the group of the pixels are right to the middle of the picture, the rover will drive right and vice versa).
 
 
-
-## Block diagram 
-![Block Diagram](https://user-images.githubusercontent.com/120782729/209185845-ff39ebd4-213f-4a3d-90d2-e3c0042d3fcb.png)
-
-## Schematic of the project
-![schematic](https://user-images.githubusercontent.com/120782729/209185207-0dc22271-c03c-4832-81cc-7f505d6936b0.jpg)
-
-
-## Operating principle
 
 ## Authors
 
