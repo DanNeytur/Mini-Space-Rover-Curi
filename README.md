@@ -74,7 +74,20 @@ The user can apply a few image processing functions:
 Color detection and self driving function- 
 after using the Color filitering function, the rover will find the biggest group of pixels that match the ragne of the color filtering function, and then drive itself towards it.The rover will drive towards the object, until the pixels are at the center of the picture. Thus if the group of the pixels are above the middle of the picture, the rover will drive forward and vice versa (and if the group of the pixels are right to the middle of the picture, the rover will drive right and vice versa).
 
+Color filter:
+![color_filtering](https://user-images.githubusercontent.com/120782729/210152190-bae0573b-2b47-497c-886d-97aed435d64e.jpg)
 
+HPF filter:
+![HPF_filter](https://user-images.githubusercontent.com/120782729/210152197-545e99a5-f2b4-4461-8f8c-29241c06830a.jpg)
+
+Outlines:
+![outlines_filter](https://user-images.githubusercontent.com/120782729/210152212-7e7def12-f6a5-4559-a58d-3eaa7625a4e4.jpg)
+
+Sharperning:
+![shaprening_filter](https://user-images.githubusercontent.com/120782729/210152214-b9cee9d6-a500-4f76-94ea-75952bf88ddb.jpg)
+
+LPF filter:
+![LPF_filter](https://user-images.githubusercontent.com/120782729/210152219-666c011a-dd82-4177-bf10-dc1062c2a9dc.jpg)
 
 ## Authors
 
