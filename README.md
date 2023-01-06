@@ -27,7 +27,7 @@ The rover includes:
 * Altera MAXII CPLD controller.
 
 
-### Feautures:
+### Features:
 * The user can interface with the project using GUI written in C#, while the computer is remotely connected to the rover using Bluetooth modules.
 * Using the GUI, the user can move the rover, control the arm, changing the camera's angles and use a few image processing functions on the received picture from the camera.
 * Color detection and self driving function.
