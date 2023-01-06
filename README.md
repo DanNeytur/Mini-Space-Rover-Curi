@@ -24,7 +24,7 @@ The rover includes:
 * IP camera
 * 3 servo motors- 2 for arm, 1 for camera
 * Bluetooth module 
-* CPLD controller.
+* Altera MAXII CPLD controller.
 
 
 ### Feautures:
